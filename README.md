@@ -173,7 +173,7 @@ const age = 27
 const age1 = "27"
 
 age == age1 //resolve to false
-
+```
 
 ## Functions
 
