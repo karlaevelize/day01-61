@@ -47,17 +47,17 @@ console.log("ages:", ages)
 //returns a new array
 //only items that match the condition
 const pets = people.filter(item => item.hasPets) //item.hasPets === true
-// console.log("pets:", pets, pets.length)
+console.log("pets:", pets, pets.length)
 
 const smokers = people.filter(item => item.smokes)
-// console.log("smokers:", smokers)
+console.log("smokers:", smokers)
 
 const under30 = people.filter(item => item.age < 30)
-// console.log("under30:", under30)
+console.log("under30:", under30)
 
 //[a, b, c, c, d, e].find(c) => { c }
 //returns one object with the matching item
 //it only return 1 item
 //it stops once the condition is matched
 const karla = people.find(p => p.name === "Karla")
-// console.log("karla:", karla)
+console.log("karla:", karla)
